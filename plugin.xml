@@ -10,7 +10,7 @@
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="DeviceMeta">
+            <feature name="IsDebug">
                 <param name="android-package" value="me.mattlewis.isdebug.IsDebug" />
             </feature>
         </config-file>
