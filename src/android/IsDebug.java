@@ -20,7 +20,7 @@ public class DeviceMeta extends CordovaPlugin {
         ctx = this.cordova.getActivity().getApplicationContext();
 
         if (action.equals("getIsDebug")) {
-            callbackContext.success(this.isDebug());
+            callbackContext.success(this.isDebug() ? 1 : 0);
         } else {
             return false;
         }
