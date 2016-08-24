@@ -10,9 +10,9 @@
     CDVPluginResult* pluginResult = nil;
 
     #ifdef DEBUG
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK  true];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK  messageAsBool:(true)];
     #else
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK  false];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK  messageAsBool:(false)];
     #endif
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
