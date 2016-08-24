@@ -10,7 +10,7 @@ import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class DeviceMeta extends CordovaPlugin {
+public class IsDebug extends CordovaPlugin {
 
     private static Context ctx;
 
