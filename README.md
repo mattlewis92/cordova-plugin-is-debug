@@ -1,5 +1,7 @@
 # cordova-plugin-is-debug
-A cordova plugin to detect if the device is running in debug mode or not.
+A cordova plugin to detect if the device is running in debug mode or not. Debug mode is when the app is built and installed locally via xcode / eclipse / the cordova cli etc, compared to release mode when the app was downloaded from the app / play store via an end user. Common use cases include:
+* using a different API endpoint for development
+* using a different push notification certificate for development and production
 
 ## Install
 
