@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-is-debug",
+  "version": "1.0.0",
+  "description": "A cordova plugin to detect if the device is running in debug mode or not.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlewis92/cordova-plugin-is-debug.git"
+  },
+  "keywords": [
+    "cordova",
+    "debug",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Matt Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattlewis92/cordova-plugin-is-debug/issues"
+  },
+  "homepage": "https://github.com/mattlewis92/cordova-plugin-is-debug#readme",
+  "cordova": {
+    "id": "cordova-plugin-is-debug",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
