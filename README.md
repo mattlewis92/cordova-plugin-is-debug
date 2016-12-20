@@ -23,7 +23,7 @@ cordova.plugins.IsDebug.getIsDebug(function(isDebug) {
 * Android
 
 ## Caveats
-iOS - you will need to make sure the DEBUG flag is set in xcode for your development builds. Most of the time this should be automatic but sometimes you may need to [configure it in xcode](http://stackoverflow.com/questions/12499001/xcode-debug-mode-when-is-it-on-off)
+iOS - you will need to make sure the DEBUG flag is set in xcode for your development builds. Most of the time this should be automatic but sometimes you may need to [configure it in xcode](https://github.com/mattlewis92/cordova-plugin-is-debug/issues/1#issuecomment-268229826)
 
 ## Credits
 
